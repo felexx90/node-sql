@@ -1,6 +1,6 @@
 {
   "author": "brianc <brian.m.carlson@gmail.com>",
-  "name": "sql",
+  "name": "reac-native-sql",
   "description": "sql builder",
   "version": "0.78.0",
   "homepage": "https://github.com/brianc/node-sql",
@@ -20,8 +20,9 @@
     "node": "*"
   },
   "dependencies": {
-    "sliced": "0.0.x",
-    "lodash": "4.1.x"
+    "assert": "^1.4.1",
+    "lodash": "4.1.x",
+    "sliced": "0.0.x"
   },
   "devDependencies": {
     "jshint": "*",
